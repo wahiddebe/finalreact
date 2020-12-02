@@ -1,0 +1,50 @@
+.container {
+  height: 400px;
+  width: 300px;
+  display: flex;
+
+  .content {
+    background-color: #2d6187;
+    flex: 1;
+    padding: 30px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper {
+      height: 300px;
+      width: 200px;
+      text-align: center;
+
+      .photoWrapper {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        border: 1px solid #abd1c6;
+        display: inline-block;
+
+        .avatar {
+          height: 100px;
+          width: 100px;
+          border-radius: 50px;
+        }
+      }
+      .judul {
+        font-size: 18px;
+        margin: 5;
+        font-weight: 500;
+        color: #abd1c6;
+      }
+
+      .deskripsi {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 3;
+        margin-top: 0;
+        color: #abd1c6;
+      }
+    }
+  }
+}
